@@ -150,9 +150,13 @@ Key findings from the analysis:
  
  ## Recommendations
  - Review the bidding and estimation process for roofing renovations since high revenue is being wiped out by cost overruns. Add realistic buffers to roofing schedules to mitigate the current delays and protect profitability.
+  
 - Recurring cost overruns may suggest that cost estimates for these project types may be inaccurate or that additional materials and labor requirements are not fully captured during planning, which may be overcome by improving cost estimation models or incorporating historical project data when budgeting to help reduce financial variance.
+
 - Maximise the business relationship with Tile Masters by routing high-priority, margin-critical contracts with them. Analyse their scheduling and logistical workflows to establish a benchmark standard for underperforming subcontractors.
+
 - Implement targeted inventory and material tracking protocols on job sites. Minimising material waste will directly improve the bottom-line profitability without requiring additional sales revenue.
+  
 - Investigate the root cause behind Crew C's 42% cost share. Determine if this variance stems from overstaffing, extended overtime, complex project assignments, or inefficiency. Standardise performance baselines across all crews to balance expenditures.
 
 
