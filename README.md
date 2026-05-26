@@ -133,9 +133,9 @@ Renovation-Operational-Intelligence/
 --- 
 
   ## Tools Used
-  Excel - initial data preparation and SQL query checking using pivot tables.
-  MySQL Workbench - relational database management and SQL analysis
-  Power BI - dashboard development and visualization
+  - Excel - initial data preparation and SQL query checking using pivot tables.
+  - MySQL Workbench - relational database management and SQL analysis.
+  - Power BI - dashboard development and visualization
 
 ---
 
