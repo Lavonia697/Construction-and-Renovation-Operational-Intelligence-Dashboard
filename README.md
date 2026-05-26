@@ -4,7 +4,7 @@ SQL and Power BI project analyzing project profitability, labor efficiency, mate
 ---
 
 ## Project Overview
-This project analyses operational performance for a renovation company experiencing mild cost overruns and inconsistent profitability across renovations projects
+This project analyses operational performance for a renovation company experiencing mild cost overruns and inconsistent profitability across renovation projects
 
 Using a relational database built in MySQL and an interactive Power BI dashboard, the project evaluates project profitability, workforce efficiency, material usage, project delays, and subcontractor performance.
 
