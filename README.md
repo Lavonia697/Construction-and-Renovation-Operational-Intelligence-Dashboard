@@ -99,6 +99,7 @@ SQL analysis included:
 
 ## Dashboard Screenshots
 ![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/screenshots/Renovation%20Performance%20Overview.png?raw=true)
+!Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/screenshots/Subcontractor%20Performance.png?raw=true)
 
 ---
 
