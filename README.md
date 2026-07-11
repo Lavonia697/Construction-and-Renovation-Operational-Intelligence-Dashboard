@@ -108,7 +108,7 @@ SQL analysis included:
 The Power BI model was designed using a star schema approach to improve analytical performance and maintain clean relationships between operational tables.
 
 Dimension tables were used to organize crews, subcontractors, job types, and dates for scalable operational reporting.
-![Alt Text](
+![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/Data%20Models/Power%20BI%20Model%20Screenshot.png?raw=true)
 
 ---
 
