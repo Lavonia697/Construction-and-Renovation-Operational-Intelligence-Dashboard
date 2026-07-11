@@ -97,6 +97,11 @@ SQL analysis included:
 
 ---
 
+## Dashboard Screenshots
+
+
+---
+
 ## Data Model
 The Power BI model was designed using a star schema approach to improve analytical performance and maintain clean relationships between operational tables.
 
