@@ -8,7 +8,7 @@ This project analyses operational performance for a renovation company experienc
 
 Using a relational database built in MySQL and an interactive Power BI dashboard, the project evaluates project profitability, workforce efficiency, material usage, project delays, and subcontractor performance.
 
-The solution integrates multiple operational tables including jobs, materials, and subcontractors to create a centralised operational intelligence dashboard for business-making.
+The solution integrates multiple operational tables ie jobs, materials, and sub-contractors to create a centralised operational intelligence dashboard for business-making.
 
 ---
 
