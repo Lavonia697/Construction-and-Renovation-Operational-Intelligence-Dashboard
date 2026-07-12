@@ -1,4 +1,4 @@
-# Revonation-Operational-Performance-Dashboard
+# Construction and Revonation-Operational-Performance-Dashboard
 SQL and Power BI project analyzing project profitability, labor efficiency, material usage, and subcontractor performance.
 
 ---
@@ -26,14 +26,8 @@ Without centralized analytics, it becomes difficult to monitor:
   ---
 
   # Database Structure Section
-  ## Relational Database Model ?????
-Fact_Jobs
-
-├── Fact_Labor 
-
-├── Fact_Materials
-
-└── Dim_Subcontractor
+  ## Relational Database Model 
+![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/Data%20Models/Power%20BI%20Model%20Screenshot.png?raw=true)
 
 ---
 
@@ -80,7 +74,7 @@ SQL analysis included:
 |Net Profit       |Revenue after operational costs|
 |Cost Overrun Rate |Budget vs actual cost variance|
 |Avg Project Delay |Schedule performance tracking|
-|Labor Cost        |Schedule performance tracking|
+|Labor Cost        |Total financial spend on internal labor hours and crew wages|
 |Material Waste    |Unused material quantity|
 |Revenue per Labor Hour |Workforce efficiency metric|
 |Revenue per FTE   |Revenue per standardized employee unit|
