@@ -1,45 +1,32 @@
 # Construction and Revonation-Operational-Performance-Dashboard
-SQL and Power BI project analyzing project profitability, labor efficiency, material usage, and subcontractor performance.
+## Cost Overrun Tracking | Labor Efficiency | Subcontractor Analytics
+![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Performance-Dashboard/blob/main/screenshots/Renovation%20Performance%20Overview.png?raw=true)
 
 ---
 
 ## Project Overview
-This project analyses operational performance for a renovation company experiencing mild cost overruns and inconsistent profitability across renovation projects
+This project delivers end-to-end operational intelligence for a renovation company experiencing mild cost overruns and inconsistent profitability.
 
-Using a relational database built in MySQL and an interactive Power BI dashboard, the project evaluates project profitability, workforce efficiency, material usage, project delays, and subcontractor performance.
-
-The solution integrates multiple operational tables ie jobs, materials, and sub-contractors to create a centralised operational intelligence dashboard for business-making.
+By building a relational SQL database pipeline and an interactive multi-page Power BI dashboard, this project integrates fragmented operational data across jobs, materials, and subcontractors to uncover hidden financial leakages and optimize site performance.
 
 ---
 
-## Business Problem
-As renovation projects increase in volume and complexity, management requires better visibility into operational performance.
-
-Without centralized analytics, it becomes difficult to monitor:
-- project profitability
-- labor efficiency
-- material waste
-- subcontractor performance
-- project delays
-- cost overruns
+## The Business Problem
+As renovation projects increase in volume and complexity, management lacks centralized visibility. Without transactional data analytics, it is difficult to monitor:
+- Structural project profitability and creeping cost overruns.
+- Workforce efficiency and crew cost disparities.
+- Material waste and supply chain leakage.
+- Subcontractor delays and vendor quality control.
 
   ---
 
-  # Database Structure Section
-  ## Relational Database Model 
-![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/Data%20Models/Power%20BI%20Model%20Screenshot.png?raw=true)
-
+  ## Tools & Technologies Used
+  - **Excel:** Initial data cleaning, schema mapping, and cross-checking calculations via Pivot Tables.
+  - **MySQL Workbench:** Relational database management, database schema creation, and deep analytical queries.
+  - **Power BI Desktop:** Star schema data modelling, advanced DAX metrics, and interactive dashboard engineering.
+ 
 ---
 
-  ## Tables Used
- | Table | Purpose |
- | :--- | :--- |
- |Fact_Jobs    | Core renovation project data|
- |Fact_Labor   | Workforce hours and labor costs|
- |Fact_Material | Material usage and waste tracking|
- |Dim_Subcontractor | Subcontractor performance metrics|
-
- ---
 
 ## SQL Features
 SQL analysis included:
@@ -72,6 +59,25 @@ WHERE actual_duration > planned_duration
 GROUP BY crew
 ORDER BY total_duration_overrun DESC;
 ```
+---
+
+## Data Model
+The Power BI model was designed using a star schema approach to improve analytical performance and maintain clean relationships between operational tables.
+
+Dimension tables were used to organize crews, subcontractors, job types, and dates for scalable operational reporting.
+![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/Data%20Models/Power%20BI%20Model%20Screenshot.png?raw=true)
+
+---
+
+  ## Tables Used
+ | Table | Purpose |
+ | :--- | :--- |
+ |Fact_Jobs    | Core renovation project data|
+ |Fact_Labor   | Workforce hours and labor costs|
+ |Fact_Material | Material usage and waste tracking|
+ |Dim_Subcontractor | Subcontractor performance metrics|
+
+ ---
 
 ## Power BI Dashboard Features
  Dashboard features included:
@@ -118,12 +124,6 @@ ORDER BY total_duration_overrun DESC;
 
 ---
 
-## Data Model
-The Power BI model was designed using a star schema approach to improve analytical performance and maintain clean relationships between operational tables.
-
-Dimension tables were used to organize crews, subcontractors, job types, and dates for scalable operational reporting.
-![Alt Text](https://github.com/Lavonia697/Construction-and-Renovation-Operational-Intelligence-Dashboard/blob/main/Data%20Models/Power%20BI%20Model%20Screenshot.png?raw=true)
-
 ---
 
 ## Repository Structure
@@ -151,18 +151,9 @@ Renovation-Operational-Intelligence/
 └── insights/
     └── business_insights.md
 ```
-
---- 
-
-  ## Tools Used
-  - Excel - initial data preparation and SQL query checking using pivot tables.
-  - MySQL Workbench - relational database management and SQL analysis.
-  - Power BI - dashboard development and visualization
-
 ---
 
 ## Key Business Insights
-Key findings from the analysis:
 - Roofing renovations lead the business in revenue generation and labor utilization. However, severe cost overruns and schedule delays make it the least profitable sector, operating      at a low 17% margin.
 - Severe variance exists across labor teams. Crew C alone accounts for a disproportionate 42% of all project labor costs.
 - Tile Masters demonstrated top performance across all data metrics, achieving a 94% on time completion rate, a minimal 1.00-day average delay, and an outstanding 4.8/5.0 quality         rating
