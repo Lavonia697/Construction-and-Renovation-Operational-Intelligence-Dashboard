@@ -53,6 +53,26 @@ SQL analysis included:
 
  ---
 
+ ## SQL Script
+ ```sql
+ # crew performance analysis
+SELECT 
+    crew,
+    COUNT(*) AS total_jobs,
+    SUM(actual_duration) AS total_actual_duration,
+    SUM(planned_duration) AS total_planned_duration,
+    SUM(actual_duration - planned_duration) as total_duration_overrun,
+    SUM(revenue) AS total_revenue,
+    SUM(actual_cost) AS total_actual_cost,
+        SUM(revenue - actual_cost) AS net_profit,
+    SUM(actual_cost - budgeted_cost) AS total_cost_overrun,
+    ROUND(AVG((actual_cost - budgeted_cost)/budgeted_cost)*100,2) AS avg_cost_variance_pct
+FROM jobs
+WHERE actual_duration > planned_duration
+GROUP BY crew
+ORDER BY total_duration_overrun DESC;
+```
+
 ## Power BI Dashboard Features
  Dashboard features included:
  - Executive KPI cards
